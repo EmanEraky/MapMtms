@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
-import com.eman.mapmtms.databinding.ActivityMainBindingImpl;
+import com.eman.mapmtms.databinding.ActivityMapsBindingImpl;
 import com.eman.mapmtms.databinding.RowPlaceBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -21,14 +21,14 @@ import javax.annotation.Generated;
 
 @Generated("Android Data Binding")
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_ACTIVITYMAIN = 1;
+  private static final int LAYOUT_ACTIVITYMAPS = 1;
 
   private static final int LAYOUT_ROWPLACE = 2;
 
   private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.eman.mapmtms.R.layout.activity_maps, LAYOUT_ACTIVITYMAIN);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.eman.mapmtms.R.layout.activity_maps, LAYOUT_ACTIVITYMAPS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.eman.mapmtms.R.layout.row_place, LAYOUT_ROWPLACE);
   }
 
@@ -41,9 +41,9 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
-        case  LAYOUT_ACTIVITYMAIN: {
-          if ("layout/activity_main_0".equals(tag)) {
-            return new ActivityMainBindingImpl(component, view);
+        case  LAYOUT_ACTIVITYMAPS: {
+          if ("layout/activity_maps_0".equals(tag)) {
+            return new ActivityMapsBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_maps is invalid. Received: " + tag);
         }
@@ -111,7 +111,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
-      sKeys.put("layout/activity_main_0", com.eman.mapmtms.R.layout.activity_maps);
+      sKeys.put("layout/activity_maps_0", com.eman.mapmtms.R.layout.activity_maps);
       sKeys.put("layout/row_place_0", com.eman.mapmtms.R.layout.row_place);
     }
   }

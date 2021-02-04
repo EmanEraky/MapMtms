@@ -16,10 +16,10 @@ import com.eman.mapmtms.presenters.module.ApplicationModule_ProvideApiHelperFact
 import com.eman.mapmtms.presenters.module.ApplicationModule_ProvideApiServiceFactory;
 import com.eman.mapmtms.presenters.module.ApplicationModule_ProvideOkHttpClientFactory;
 import com.eman.mapmtms.presenters.module.ApplicationModule_ProvideRetrofitFactory;
-import com.eman.mapmtms.presenters.ui.TestActivity;
 import com.eman.mapmtms.presenters.ui.MainViewModel_AssistedFactory;
 import com.eman.mapmtms.presenters.ui.MainViewModel_AssistedFactory_Factory;
 import com.eman.mapmtms.presenters.ui.MapsActivity;
+import com.eman.mapmtms.presenters.ui.TestActivity;
 import com.eman.trudocapp.data.repo.ApiHelper;
 import com.eman.trudocapp.data.repo.ApiPlaceRepo;
 import com.google.common.collect.ImmutableMap;
@@ -255,11 +255,11 @@ public final class DaggerApp_HiltComponents_ApplicationC extends App_HiltCompone
       }
 
       @Override
-      public void injectMainActivity(TestActivity arg0) {
+      public void injectMapsActivity(MapsActivity mapsActivity) {
       }
 
       @Override
-      public void injectMapsActivity(MapsActivity mapsActivity) {
+      public void injectTestActivity(TestActivity testActivity) {
       }
 
       @Override

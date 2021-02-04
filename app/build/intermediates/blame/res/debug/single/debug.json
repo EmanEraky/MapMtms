@@ -12,12 +12,12 @@
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vs_user.png.flat",
-        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\drawable\\vs_user.png"
-    },
-    {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vs_user.png.flat",
+        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\drawable\\vs_user.png"
     },
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -38,10 +38,6 @@
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu.png.flat",
         "source": "D:\\eman\\MapMtms\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_menu.png"
-    },
-    {
-        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -86,6 +82,10 @@
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",

@@ -21,7 +21,7 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import com.eman.mapmtms.R
-import com.eman.mapmtms.databinding.ActivityMainBinding
+import com.eman.mapmtms.databinding.ActivityMapsBinding
 import com.eman.mapmtms.domain.models.Place
 import com.eman.mapmtms.presenters.adapter.PlacesAdapter
 import com.eman.mapmtms.presenters.listener.Place_Listener
@@ -49,7 +49,7 @@ class TestActivity : AppCompatActivity(), OnMapReadyCallback, Place_Listener {
     private var lastKnownLocation: Location? = null
     var mapFragment: SupportMapFragment? = null
 
-    lateinit var binding: ActivityMainBinding
+    lateinit var binding: ActivityMapsBinding
     private val mainViewModel: MainViewModel by viewModels()
 
     private var flagType = false

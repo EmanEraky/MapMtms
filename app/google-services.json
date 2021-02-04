@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "929781018810",
+    "project_id": "mapmtms",
+    "storage_bucket": "mapmtms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929781018810:android:7f9bc4b1f673c19d3c9283",
+        "android_client_info": {
+          "package_name": "com.eman.mapmtms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929781018810-h7uf321p0amfisenpm55cm92mbvlcljd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eman.mapmtms",
+            "certificate_hash": "b66923e19c908f5c3757ca636b502b5099c42997"
+          }
+        },
+        {
+          "client_id": "929781018810-eg17mn68d4251ljijpif11sd9oefpvhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASr21s6I3oaUrdRBUEui3fWRnT97loTzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929781018810-eg17mn68d4251ljijpif11sd9oefpvhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

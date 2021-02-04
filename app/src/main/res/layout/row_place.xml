@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="pListener"
+            type="com.eman.mapmtms.presenters.listener.Place_Listener" />
+        <variable
+            name="place"
+            type="com.eman.mapmtms.domain.models.Place" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{()->pListener.onClickPlace(place)}"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txt_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="12dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            app:layout_constraintTop_toBottomOf="@id/txt_place" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

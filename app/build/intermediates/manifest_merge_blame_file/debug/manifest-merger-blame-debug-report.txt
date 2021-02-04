@@ -1,0 +1,198 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eman.mapmtms"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:7:5-67
+13-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\51bf0979bd28ce0bbdd1fe895d14172d\jetified-places-2.4.0\AndroidManifest.xml:10:5-76
+14-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\51bf0979bd28ce0bbdd1fe895d14172d\jetified-places-2.4.0\AndroidManifest.xml:10:22-73
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\2bd510979144c17841175a1dcf5f0c15\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\2bd510979144c17841175a1dcf5f0c15\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\2bd510979144c17841175a1dcf5f0c15\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+19
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23
+24    <application
+24-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:9:5-29:19
+25        android:name="com.eman.mapmtms.App"
+25-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:10:9-28
+26        android:allowBackup="true"
+26-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.3.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\1f20c0e5e80ca2d902995bb12516c873\core-1.3.2\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:12:9-43
+30        android:label="@string/app_name"
+30-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:13:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:14:9-54
+32        android:supportsRtl="true"
+32-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:15:9-35
+33        android:theme="@style/AppTheme" >
+33-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:16:9-40
+34        <meta-data
+34-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:18:9-20:71
+35            android:name="com.google.android.geo.API_KEY"
+35-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:19:13-58
+36            android:value="AIzaSyBaSsoZZhTFaKRl9ytbClTPdOLweE6k7dE" />
+36-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:20:13-68
+37
+38        <activity
+38-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:21:9-28:20
+39            android:name="com.eman.mapmtms.presenters.ui.MapsActivity"
+39-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:21:19-61
+40            android:windowSoftInputMode="stateHidden" >
+40-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:22:13-54
+41            <intent-filter>
+41-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:23:13-27:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:24:17-69
+42-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:24:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:26:17-77
+44-->D:\eman\MapMtms\app\src\main\AndroidManifest.xml:26:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b5e6e5c7ee6af290e9224f2a30b2550e\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:17:9-23:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b5e6e5c7ee6af290e9224f2a30b2550e\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:18:13-84
+50            android:directBootAware="true"
+50-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b5e6e5c7ee6af290e9224f2a30b2550e\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:19:13-37
+52            <meta-data
+52-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b5e6e5c7ee6af290e9224f2a30b2550e\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:20:13-22:85
+53                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+53-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b5e6e5c7ee6af290e9224f2a30b2550e\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:21:17-111
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-firestore:22.0.2] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\b5e6e5c7ee6af290e9224f2a30b2550e\jetified-firebase-firestore-22.0.2\AndroidManifest.xml:22:17-82
+55            <!--
+56                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+57                clients to use it as well, by defining this registrar in their own core/common library.
+58            -->
+59            <meta-data
+59-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+60                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+60-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+62        </service>
+63
+64        <activity
+64-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\51bf0979bd28ce0bbdd1fe895d14172d\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+65            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+65-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\51bf0979bd28ce0bbdd1fe895d14172d\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+66            android:exported="false"
+66-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\51bf0979bd28ce0bbdd1fe895d14172d\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+67            android:label="@string/places_autocomplete_label"
+67-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\51bf0979bd28ce0bbdd1fe895d14172d\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+68            android:theme="@style/PlacesAutocompleteOverlay"
+68-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\51bf0979bd28ce0bbdd1fe895d14172d\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+69            android:windowSoftInputMode="adjustResize" >
+69-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\51bf0979bd28ce0bbdd1fe895d14172d\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+70        </activity> <!-- Needs to be explicitly declared on P+ -->
+71        <uses-library
+71-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\2bd510979144c17841175a1dcf5f0c15\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+72            android:name="org.apache.http.legacy"
+72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\2bd510979144c17841175a1dcf5f0c15\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+73            android:required="false" />
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\2bd510979144c17841175a1dcf5f0c15\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\af529aed465a5dc6e474e908a215d83a\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\af529aed465a5dc6e474e908a215d83a\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\af529aed465a5dc6e474e908a215d83a\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\af529aed465a5dc6e474e908a215d83a\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+79
+80        <provider
+80-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+81            android:name="com.google.firebase.provider.FirebaseInitProvider"
+81-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+82            android:authorities="com.eman.mapmtms.firebaseinitprovider"
+82-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+84            android:exported="false"
+84-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+85            android:initOrder="100" />
+85-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\733c9eeb3d19682ee3cc4d4de7a1b8b4\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\1b3f33c0ca3ed4f852f9ee7b699f03e3\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\1b3f33c0ca3ed4f852f9ee7b699f03e3\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\1b3f33c0ca3ed4f852f9ee7b699f03e3\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+90
+91        <provider
+91-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\9aff31b9cb413b250672f2b3ef225a65\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+92            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\9aff31b9cb413b250672f2b3ef225a65\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+93            android:authorities="com.eman.mapmtms.lifecycle-process"
+93-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\9aff31b9cb413b250672f2b3ef225a65\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+94            android:exported="false"
+94-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\9aff31b9cb413b250672f2b3ef225a65\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+95            android:multiprocess="true" />
+95-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\9aff31b9cb413b250672f2b3ef225a65\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+96
+97        <service
+97-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\0fdb8f9676b4dab401f3f18ec3e784a7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+98            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+98-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\0fdb8f9676b4dab401f3f18ec3e784a7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+99            android:exported="false" >
+99-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\0fdb8f9676b4dab401f3f18ec3e784a7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+100            <meta-data
+100-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\0fdb8f9676b4dab401f3f18ec3e784a7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+101                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+101-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\0fdb8f9676b4dab401f3f18ec3e784a7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+102                android:value="cct" />
+102-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\0fdb8f9676b4dab401f3f18ec3e784a7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+103        </service>
+104        <service
+104-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\ddeac132180eadc396b77785149cfa93\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+105            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+105-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\ddeac132180eadc396b77785149cfa93\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+106            android:exported="false"
+106-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\ddeac132180eadc396b77785149cfa93\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+107            android:permission="android.permission.BIND_JOB_SERVICE" >
+107-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\ddeac132180eadc396b77785149cfa93\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+108        </service>
+109
+110        <receiver
+110-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\ddeac132180eadc396b77785149cfa93\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+111            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+111-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\ddeac132180eadc396b77785149cfa93\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+112            android:exported="false" />
+112-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Eman\.gradle\caches\transforms-2\files-2.1\ddeac132180eadc396b77785149cfa93\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+113    </application>
+114
+115</manifest>

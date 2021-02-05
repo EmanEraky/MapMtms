@@ -4,6 +4,23 @@
             "outputFile": "D:\\eman\\MapMtms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Eman\\.gradle\\caches\\transforms-2\\files-2.1\\36f7a986969ef0d39ddc30ed41e7a66a\\material-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Eman\\.gradle\\caches\\transforms-2\\files-2.1\\3438f5bb10c58668c93962e65d93f0e7\\appcompat-1.2.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",

@@ -19,7 +19,6 @@ import com.eman.mapmtms.presenters.module.ApplicationModule_ProvideRetrofitFacto
 import com.eman.mapmtms.presenters.ui.MainViewModel_AssistedFactory;
 import com.eman.mapmtms.presenters.ui.MainViewModel_AssistedFactory_Factory;
 import com.eman.mapmtms.presenters.ui.MapsActivity;
-import com.eman.mapmtms.presenters.ui.TestActivity;
 import com.eman.trudocapp.data.repo.ApiHelper;
 import com.eman.trudocapp.data.repo.ApiPlaceRepo;
 import com.google.common.collect.ImmutableMap;
@@ -256,10 +255,6 @@ public final class DaggerApp_HiltComponents_ApplicationC extends App_HiltCompone
 
       @Override
       public void injectMapsActivity(MapsActivity mapsActivity) {
-      }
-
-      @Override
-      public void injectTestActivity(TestActivity testActivity) {
       }
 
       @Override

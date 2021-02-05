@@ -4,7 +4,6 @@ import androidx.hilt.lifecycle.ViewModelFactoryModules;
 import com.eman.mapmtms.presenters.module.ApplicationModule;
 import com.eman.mapmtms.presenters.ui.MainViewModel_HiltModule;
 import com.eman.mapmtms.presenters.ui.MapsActivity_GeneratedInjector;
-import com.eman.mapmtms.presenters.ui.TestActivity_GeneratedInjector;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -116,7 +115,6 @@ public final class App_HiltComponents {
   )
   @ActivityScoped
   public abstract static class ActivityC implements MapsActivity_GeneratedInjector,
-      TestActivity_GeneratedInjector,
       ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       FragmentComponentManager.FragmentComponentBuilderEntryPoint,

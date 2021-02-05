@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_place.xml",
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\layout\\row_place.xml"
     },

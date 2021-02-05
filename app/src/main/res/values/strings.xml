@@ -3,4 +3,6 @@
     <string name="yourLocation">Your Location</string>
     <string name="destination">Destination</string>
     <string name="google_maps_key">AIzaSyCafU3zidMWHcnjBMmP9zr3AjjHf5-KiiA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

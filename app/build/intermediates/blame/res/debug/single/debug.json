@@ -8,16 +8,20 @@
         "source": "D:\\eman\\MapMtms\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\navigation_map_navigate.xml.flat",
+        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\navigation\\map_navigate.xml"
+    },
+    {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vs_user.png.flat",
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\drawable\\vs_user.png"
+    },
+    {
+        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -32,6 +36,10 @@
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_layout.xml.flat",
+        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\layout\\menu_layout.xml"
+    },
+    {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -42,10 +50,6 @@
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_layout.xml.flat",
-        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\layout\\menu_layout.xml"
     },
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu.png.flat",
@@ -114,6 +118,10 @@
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_map.xml.flat",
+        "source": "D:\\eman\\MapMtms\\app\\src\\main\\res\\layout\\fragment_map.xml"
     },
     {
         "merged": "D:\\eman\\MapMtms\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_place.xml.flat",

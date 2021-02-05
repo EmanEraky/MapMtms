@@ -4,6 +4,25 @@
             "outputFile": "D:\\eman\\MapMtms\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Eman\\.gradle\\caches\\transforms-2\\files-2.1\\36f7a986969ef0d39ddc30ed41e7a66a\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Eman\\.gradle\\caches\\transforms-2\\files-2.1\\3438f5bb10c58668c93962e65d93f0e7\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
